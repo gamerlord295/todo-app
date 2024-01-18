@@ -1,0 +1,15 @@
+@font-face {
+  font-family: main;
+  src: local(''),
+       url('../JosefinSans-Regular.ttf');
+}
+
+body {
+  font-family: main;
+  color: white;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+}
