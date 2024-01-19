@@ -46,7 +46,7 @@ const Task = ({ item, data, setData }: idk) => {
 
   const delItem = () => {
     let oldData = data.filter((task) => task.id !== item.id);
-    oldData.sort((item1, item2) => item1.id - item2.id);
+    oldData.sort((item1, item2) => item2.id - item1.id);
     setData([...oldData]);
   };
 
